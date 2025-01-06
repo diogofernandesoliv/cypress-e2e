@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-01-06T17:10:39.004Z",
+    "end": "2025-01-06T17:10:54.241Z",
+    "duration": 15237,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6eb1670c-3416-42c4-971b-d061f84aae55",
+      "title": "",
+      "fullFile": "cypress\\e2e\\exercicio-02.cy.js",
+      "file": "cypress\\e2e\\exercicio-02.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "59a78c90-d5c8-4340-9bcd-021bc966d59e",
+          "title": "Exercício 02",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Visite a página principal do AdoPet e verifique se o título \"AdoPet\" está presente",
+              "fullTitle": "Exercício 02 Visite a página principal do AdoPet e verifique se o título \"AdoPet\" está presente",
+              "timedOut": null,
+              "duration": 1011,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.title().should('eq', 'AdoPet');",
+              "err": {},
+              "uuid": "d8d881f3-6403-4672-bb40-feba5ce277a4",
+              "parentUUID": "59a78c90-d5c8-4340-9bcd-021bc966d59e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visite a página principal do AdoPet e verifique se o texto \"Quem ama adota!\" está presente",
+              "fullTitle": "Exercício 02 Visite a página principal do AdoPet e verifique se o texto \"Quem ama adota!\" está presente",
+              "timedOut": null,
+              "duration": 524,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('.footer > p', 'Quem ama adota!').should('be.visible');",
+              "err": {},
+              "uuid": "5a837c9f-31ae-4c39-9df3-f31eb579467a",
+              "parentUUID": "59a78c90-d5c8-4340-9bcd-021bc966d59e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visite a página principal do AdoPet e verifique se o texto \"Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!\" está presente",
+              "fullTitle": "Exercício 02 Visite a página principal do AdoPet e verifique se o texto \"Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!\" está presente",
+              "timedOut": null,
+              "duration": 364,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.contains('.initial > p', 'Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!').should('be.visible');",
+              "err": {},
+              "uuid": "c21b4655-d3c6-48e6-80ff-dbd3aad8b555",
+              "parentUUID": "59a78c90-d5c8-4340-9bcd-021bc966d59e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login com um fluxo diferente. Visite a página principal do AdoPet, clique no botão de ícone de mensagem no header e escreva o nomee senha válidos",
+              "fullTitle": "Exercício 02 Login com um fluxo diferente. Visite a página principal do AdoPet, clique no botão de ícone de mensagem no header e escreva o nomee senha válidos",
+              "timedOut": null,
+              "duration": 2108,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('.header__message').click();\ncy.get('[data-test=\"input-loginEmail\"]').type('ana@email.com');\ncy.get('[data-test=\"input-loginPassword\"]').type('Senha123');\ncy.get('[data-test=\"submit-button\"]').click();",
+              "err": {},
+              "uuid": "494e640e-59d2-455a-8c9e-01eeba8bfb17",
+              "parentUUID": "59a78c90-d5c8-4340-9bcd-021bc966d59e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d8d881f3-6403-4672-bb40-feba5ce277a4",
+            "5a837c9f-31ae-4c39-9df3-f31eb579467a",
+            "c21b4655-d3c6-48e6-80ff-dbd3aad8b555",
+            "494e640e-59d2-455a-8c9e-01eeba8bfb17"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4007,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

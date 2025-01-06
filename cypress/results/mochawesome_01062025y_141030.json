@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-01-06T17:10:22.172Z",
+    "end": "2025-01-06T17:10:30.234Z",
+    "duration": 8062,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fb3406de-f36c-476e-b371-749b41375249",
+      "title": "",
+      "fullFile": "cypress\\e2e\\exercicio-01.cy.js",
+      "file": "cypress\\e2e\\exercicio-01.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "91e0315e-977c-4c75-a767-d21d5f6d2f0a",
+          "title": "Exercício 01",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Ver perts disponíveis pra adoção",
+              "fullTitle": "Exercício 01 Ver perts disponíveis pra adoção",
+              "timedOut": null,
+              "duration": 1757,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://adopet-frontend-cypress.vercel.app/');\ncy.get('.button').click();",
+              "err": {},
+              "uuid": "481a3877-2d2f-4fc5-8105-c1bf6d5ac8b5",
+              "parentUUID": "91e0315e-977c-4c75-a767-d21d5f6d2f0a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visite a página principal do AdoPet e teste os botões header",
+              "fullTitle": "Exercício 01 Visite a página principal do AdoPet e teste os botões header",
+              "timedOut": null,
+              "duration": 606,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://adopet-frontend-cypress.vercel.app/');\ncy.get('.header__home').click();",
+              "err": {},
+              "uuid": "d8e1d44b-9913-455c-a05f-ecff7d056c71",
+              "parentUUID": "91e0315e-977c-4c75-a767-d21d5f6d2f0a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visite a página de /login do Adopet",
+              "fullTitle": "Exercício 01 Visite a página de /login do Adopet",
+              "timedOut": null,
+              "duration": 304,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://adopet-frontend-cypress.vercel.app/');",
+              "err": {},
+              "uuid": "21075569-39b5-47b0-898f-77411fc4c10b",
+              "parentUUID": "91e0315e-977c-4c75-a767-d21d5f6d2f0a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visite a páginade /home do Adopet",
+              "fullTitle": "Exercício 01 Visite a páginade /home do Adopet",
+              "timedOut": null,
+              "duration": 247,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://adopet-frontend-cypress.vercel.app/home');",
+              "err": {},
+              "uuid": "d7a22050-cc47-49da-8241-3355dc1543fd",
+              "parentUUID": "91e0315e-977c-4c75-a767-d21d5f6d2f0a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Visite a página de /home do AdoPet e clique no botão “Falar com o responsável”",
+              "fullTitle": "Exercício 01 Visite a página de /home do AdoPet e clique no botão “Falar com o responsável”",
+              "timedOut": null,
+              "duration": 705,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://adopet-frontend-cypress.vercel.app/home');\ncy.get('.header__message').click();",
+              "err": {},
+              "uuid": "1ce60968-b0a2-418a-8598-99eb6bde29d6",
+              "parentUUID": "91e0315e-977c-4c75-a767-d21d5f6d2f0a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "481a3877-2d2f-4fc5-8105-c1bf6d5ac8b5",
+            "d8e1d44b-9913-455c-a05f-ecff7d056c71",
+            "21075569-39b5-47b0-898f-77411fc4c10b",
+            "d7a22050-cc47-49da-8241-3355dc1543fd",
+            "1ce60968-b0a2-418a-8598-99eb6bde29d6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3619,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
